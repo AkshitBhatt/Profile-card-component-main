@@ -19,6 +19,7 @@
   position: relative;
   align-items: center;
   /* position: relative; */
+
   height: 100vh;
   width: 100%;
   border: 1 px solid black;
@@ -159,4 +160,24 @@
 .backgr {
   display: flex;
   position: relative;
+}
+
+@media (max-width:460px) {
+  .sub-container {
+    width: 90%;
+  margin: 0 auto;
+
+  }
+  .ff {
+    width: 47rem;
+    position: absolute;
+    left: -34rem;
+    top: -24rem;
+  }
+  .ff2 {
+    /* position: absolute; */
+    /* top: -13rem; */
+    left: 35rem;
+    /* width: 60rem; */
+  }
 }
